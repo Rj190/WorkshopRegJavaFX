@@ -1,4 +1,4 @@
-# WorkshopRegJavaFX
+# Workshop Reg Application JavaFX
 Development of stand-alone applications using JavaFX programs for Registration form for Workshops/Conference.
 
 Specification:
