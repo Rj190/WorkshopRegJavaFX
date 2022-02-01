@@ -22,8 +22,10 @@ Driver type and its downloadable link.
        Driver type : JDBC driver for MySQL
 
        Download Link: https://dev.mysql.com/downloads/connector/j/
+      
+     
        
-       GUI Screenshots of all the operations(CRUD).
+GUI Screenshots of all the operations(CRUD).
 
 Insertion:
 
