@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="p2" prefHeight="231.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdminController">
+   <children>
+      <Label id="l2" layoutX="88.0" layoutY="24.0" prefHeight="31.0" prefWidth="186.0" text="    Admin Panel" textAlignment="CENTER" textFill="#3c3232">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label id="l2wc" layoutX="54.0" layoutY="71.0" prefHeight="25.0" prefWidth="94.0" text="Welcome : )" />
+      <Label id="d2usr" fx:id="l2usr" layoutX="134.0" layoutY="75.0" prefHeight="17.0" prefWidth="94.0" text="loged" />
+      <Button id="b2rp" fx:id="b2rp" layoutX="14.0" layoutY="120.0" mnemonicParsing="false" onAction="#register" prefHeight="25.0" prefWidth="150.0" text="Register Participants" />
+      <Button id="b2lo" fx:id="l2lo" layoutX="129.0" layoutY="179.0" mnemonicParsing="false" onAction="#logout" prefHeight="25.0" prefWidth="133.0" text="Logout" />
+      <Button id="v1" fx:id="vi" layoutX="195.0" layoutY="120.0" mnemonicParsing="false" onAction="#viewall" prefHeight="25.0" prefWidth="175.0" text="view registered Participants" />
+   </children>
+</AnchorPane>

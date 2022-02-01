@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="p5" prefHeight="650.0" prefWidth="1273.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TbController">
+   <children>
+      <Label id="l5" layoutX="365.0" layoutY="37.0" prefHeight="68.0" prefWidth="438.0" text="Registered Participants">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font>
+      </Label>
+      <TableView id="Data" fx:id="tbv" layoutX="25.0" layoutY="128.0" onSort="#admin" prefHeight="314.0" prefWidth="1191.0">
+        <columns>
+          <TableColumn id="t5sl" fx:id="sl" prefWidth="65.99996948242188" text="Sl NO" />
+          <TableColumn id="t5pid" fx:id="pid" prefWidth="106.66665649414062" text="Participants ID" />
+            <TableColumn id="t5pn" fx:id="pn" prefWidth="223.33331298828125" text="Participants Name" />
+            <TableColumn id="t5cn" fx:id="cn" prefWidth="195.99996948242188" text="College Name" />
+            <TableColumn id="t5dn" fx:id="dept" prefWidth="117.3333740234375" text="Dept " />
+            <TableColumn id="t5ey" fx:id="ey" prefWidth="144.6666259765625" text="Event Type" />
+            <TableColumn id="t5wid" fx:id="wid" prefWidth="111.3333740234375" text="Workshop ID" />
+            <TableColumn id="t5dt" fx:id="dt" minWidth="0.0" prefWidth="98.666748046875" text="Date" />
+            <TableColumn id="t5ay" fx:id="ay" prefWidth="130.00006103515625" text="AY" />
+        </columns>
+      </TableView>
+      <Button id="b5rem" fx:id="t4f" layoutX="340.0" layoutY="461.0" mnemonicParsing="false" onAction="#rem" prefHeight="25.0" prefWidth="154.0" text="Remove" />
+      <Button id="b5rnp" layoutX="759.0" layoutY="461.0" mnemonicParsing="false" onAction="#register" prefHeight="25.0" prefWidth="163.0" text="Register New Participant" />
+      <Button id="b5lo" layoutX="941.0" layoutY="71.0" mnemonicParsing="false" onAction="#logout" prefHeight="25.0" prefWidth="154.0" text="Logout" />
+      <Button fx:id="a1" layoutX="759.0" layoutY="71.0" mnemonicParsing="false" onAction="#admin" prefHeight="25.0" prefWidth="135.0" text="Admin Panel" />
+      <Button layoutX="573.0" layoutY="461.0" mnemonicParsing="false" onAction="#updateT" prefHeight="25.0" prefWidth="115.0" text="update" />
+   </children>
+</AnchorPane>

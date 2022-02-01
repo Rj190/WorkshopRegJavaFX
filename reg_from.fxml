@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="p3" prefHeight="620.0" prefWidth="498.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RegFormController">
+   <children>
+      <Label id="l3" layoutX="120.0" layoutY="38.0" prefHeight="25.0" prefWidth="313.0" text="Workshop / Conference Registration ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label id="l3pid" layoutX="55.0" layoutY="112.0" text="Participant ID" />
+      <Label id="l3pn" layoutX="56.0" layoutY="155.0" text="Participant Name" />
+      <Label id="l3cn" layoutX="54.0" layoutY="210.0" text="College Name" />
+      <Label id="l3dn" layoutX="53.0" layoutY="262.0" text="Department Name" />
+      <Label id="l3ey" layoutX="53.0" layoutY="318.0" text="Event Type" />
+      <Label id="l3wid" layoutX="51.0" layoutY="378.0" text="Paper/workshop ID" />
+      <DatePicker id="d3d" fx:id="d3d" layoutX="179.0" layoutY="422.0" prefHeight="25.0" prefWidth="195.0" />
+      <Label id="l3d" layoutX="53.0" layoutY="426.0" text="Event Date" />
+      <Label id="l3ay" layoutX="55.0" layoutY="475.0" text="Academic Year" />
+      <TextField id="t3pid" fx:id="t3pid" layoutX="179.0" layoutY="108.0" prefHeight="25.0" prefWidth="195.0" />
+      <TextField id="t3pn" fx:id="t3pn" layoutX="179.0" layoutY="151.0" prefHeight="25.0" prefWidth="195.0" />
+      <TextField id="t3cn" fx:id="t3cn" layoutX="179.0" layoutY="206.0" prefHeight="25.0" prefWidth="195.0" />
+      <TextField id="t3wid" fx:id="t3wid" layoutX="179.0" layoutY="374.0" prefHeight="25.0" prefWidth="195.0" />
+      <ComboBox id="c3dn" fx:id="c3dn" layoutX="179.0" layoutY="258.0" prefHeight="25.0" prefWidth="195.0" promptText="               -----Select-----" />
+      <ComboBox id="c3ey" fx:id="c3ey" layoutX="179.0" layoutY="314.0" prefHeight="25.0" prefWidth="195.0" promptText="               -----Select-----" />
+      <ComboBox id="c3ay" fx:id="c3ay" layoutX="176.0" layoutY="471.0" prefHeight="25.0" prefWidth="195.0" promptText="               -----Select-----" />
+      <Button id="b3reg" layoutX="113.0" layoutY="533.0" mnemonicParsing="false" onAction="#reg" prefHeight="25.0" prefWidth="78.0" text="Register" />
+      <Button id="b3cl" layoutX="307.0" layoutY="533.0" mnemonicParsing="false" onAction="#clear" prefHeight="25.0" prefWidth="92.0" text="Clear" />
+      <Button layoutX="208.0" layoutY="571.0" mnemonicParsing="false" onAction="#admin" text="Admin Panel" />
+   </children>
+</AnchorPane>
