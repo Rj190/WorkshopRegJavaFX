@@ -23,7 +23,7 @@ Driver type and its downloadable link.
 
        Download Link: https://dev.mysql.com/downloads/connector/j/
        
-       2.4. GUI Screenshots of all the operations(CRUD).
+       GUI Screenshots of all the operations(CRUD).
 
 Insertion:
 
